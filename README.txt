@@ -1,0 +1,1 @@
+Please extract the images to see each and eveery element at thier particular places.

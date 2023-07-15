@@ -1,0 +1,216 @@
+﻿@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    --bs-body-font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+li {
+    list-style: none;
+}
+
+* , *::after , *::before {
+    box-sizing : border-box;
+}
+
+.container {
+    overflow-x : hidden;
+}
+
+
+/*header*/
+
+#header-text {
+    font-size : 13px;
+}
+
+.user-icon #user {
+    font-size: 20px;
+    padding-right : 5px;
+    padding-left : 5px;
+    
+}
+
+#sign-in-section {
+    position: relative;
+    left: 50px;
+}
+
+/*categories*/
+#categories {
+    list-style : none;
+    padding-left : 10px;
+    cursor : pointer;
+}
+
+#search-bar {
+   position : relative;
+   left : 165px;
+}
+
+#search-icon {
+    position: relative;
+    right: 5px;
+    top : 3px;
+    font-size : 20px;
+}
+
+#search-area {
+    border-color : white;
+    border : none;
+}
+
+/*main body images*/
+
+/*1st section*/
+
+.first-block #first-img-head {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size : 50px;
+    font-weight : bolder;
+    color : white;
+}
+
+.first-block #first-img-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,280%);
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+
+.first-block #first-img-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,230%);
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+
+/*2nd section*/
+
+#second-img-head {
+    position: absolute;
+    top: 91%;
+    left: 50%;
+    transform: translate(-50%,730%);
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+}
+
+#second-img-btn {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,230%);
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+
+/*3rd block*/
+#abyss-des {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: darkolivegreen;
+    width: 859px;
+    height: 130px;
+    margin: 0px;
+    margin-left: 218px;
+}
+
+
+/*explore more*/
+#NA-btn {
+    padding: 37px;
+}
+
+
+/*cart section*/
+#item-image {
+    margin-right : 15px;
+}
+ #item-detail {
+    font-size : 15px;
+ }
+
+#delete-btn {
+    position : relative;
+    top : 4px;
+    left : 300px;
+}
+
+#delete-btn-shorts {
+    position: relative;
+    top: 4px;
+    left: 351px;
+}
+
+#delete-btn-ss {
+    position: relative;
+    top: 4px;
+    left: 311px;
+}
+
+#payment-area {
+    width : 580px;
+   /* length : 400px;*/
+    /*background-color : yellow;*/
+    position : relative;
+    top : 20px;
+    left : 250px;
+}
+
+#ad-link {
+    margin-left : 350px;
+}
+
+#o-value {
+    margin-left: 344px;
+}
+
+#f-value {
+    margin-left: 430px;
+}
+
+#total-amt {
+    margin-left: 400px;
+}
+
+#continue-btn {
+    margin-left : 180px;
+    padding : 5px 40px 5px 40px;
+    background-color : black;
+    color : white;
+}
+
+#cards {
+    font-size : 28px;
+}
+
+#cart-footer {
+    display : flex;
+    justify-content : center;
+}
+
+#socials-cart {
+    margin-left : 60px;
+}
